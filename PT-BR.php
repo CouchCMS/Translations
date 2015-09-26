@@ -12,9 +12,9 @@
     $t['logout'] = 'Sair';
     $t['javascript_msg'] = 'O JavaScript est&aacute; desabilitado ou n&atilde;o est&aacute; sendo suportado pelo seu navegador.<br/>
                             Por favor aprimore seu navegador ou <a title="Habilite o JavaScript no seu navegador" href="http://www.google.com/support/bin/answer.py?answer=23852"><b>enable JavaScript</b></a> para usar o Painel Administrador.';
-    $t['add_new'] = 'Adicione Novo';
-    $t['add_new_page'] = 'Adicione uma nova p&aacute;gina';
-    $t['add_new_user'] = 'Adicione um novo usu&aacute;rio';
+    $t['add_new'] = 'Adicionar Novo';
+    $t['add_new_page'] = 'Adicionar nova p&aacute;gina';
+    $t['add_new_user'] = 'Adicionar novo usu&aacute;rio';
     $t['view'] = 'Visualizar';
     $t['list'] = 'Listar';
     $t['edit'] = 'Editar';
@@ -30,7 +30,7 @@
     $t['manage_users'] = 'Gerenciar Usu&aacute;rios';
 
     // List pages
-    $t['view_all_folders'] = 'Ver todas as pastas';
+    $t['view_all_folders'] = 'Visualizar todas as pastas';
     $t['filter'] = 'Filtrar';
     $t['showing'] = 'Mostrando';
     $t['title'] = 'T&iacute;tulo';
@@ -43,7 +43,7 @@
     $t['confirm_delete_page'] = 'Voc&ecirc; tem certeza de que quer deletar esta p&aacute;gina'; // No question mark please
     $t['confirm_delete_selected_pages'] = 'Voc&ecirc; tem certeza de que quer deletar as p&aacute;ginas selecionadas?';
     $t['remove_template'] = 'Remover modelo';
-    $t['template_missing'] = 'Modelo desaparecido';
+    $t['template_missing'] = 'Modelo n&atilde;o encontrado';
     $t['prev'] = 'Anter'; // Pagination button
     $t['next'] = 'Próx'; // Pagination button
 
@@ -60,24 +60,24 @@
     $t['allow_comments'] = 'Permitir coment&aacute;rios de usu&aacute;rios';
     $t['status'] = 'Estado';
     $t['name'] = 'Nome';
-    $t['title_desc'] = 'Deixe esse campo vazio para utilizar o sistema gerador de nomes a partir do t&iacute;tulo';
-    $t['required'] = 'Requerido'; // Required field
-    $t['required_msg'] = 'Campo requerido n&atilde;o pode ser deixado vazio';
+    $t['title_desc'] = 'Deixe esse campo vazio para gerar o nome a partir do t&iacute;tulo';
+    $t['required'] = 'Obrigat&oacute;rio'; // Required field
+    $t['required_msg'] = 'Campo obrigat&oacute;rio n&atilde;o pode ser deixado vazio';
     $t['browse_server'] = 'Procurar no Servidor';
     $t['view_image'] = 'Visualizar Imagem';
     $t['thumb_created_auto'] = 'Ser&aacute; criado automaticamente';
     $t['recreate'] = 'Recriar';
     $t['thumb_recreated'] = 'Miniaturas recriadas';
     $t['crop_from'] = 'Recortando de';
-    $t['top_left'] = 'Topo &agrave; esquerda';
-    $t['top_center'] = 'Topo ao meio';
-    $t['top_right'] = 'Topo &agrave; direita';
+    $t['top_left'] = 'Superior &agrave; esquerda';
+    $t['top_center'] = 'Superior ao meio';
+    $t['top_right'] = 'Superior &agrave; direita';
     $t['middle_left'] = 'Centro &agrave; esquerda';
     $t['middle'] = 'Centro';
     $t['middle_right'] = 'Centro &agrave; direita';
-    $t['bottom_left'] = 'Fundo &agrave; esquerda';
-    $t['bottom_center'] = 'Fundo ao meio';
-    $t['bottom_right'] = 'Fundo &agrave; direita';
+    $t['bottom_left'] = 'Inferior &agrave; esquerda';
+    $t['bottom_center'] = 'Inferior ao meio';
+    $t['bottom_right'] = 'Inferior &agrave; direita';
     $t['view_thumbnail'] = 'Visualizar miniatura';
     $t['field_not_found'] = 'Campo n&atilde;o encontrado!';
     $t['delete_permanently'] = 'Deletar permanentemente?';
@@ -122,7 +122,7 @@
     $t['password'] = 'Senha';
     $t['login'] = 'Login';
     $t['forgot_password'] = 'Esqueceu sua senha?';
-    $t['prompt_cookies'] = 'Os Cookies devem estar desabilitados a usar este CMS';
+    $t['prompt_cookies'] = 'Os cookies devem estar desabilitados a usar este CMS';
     $t['prompt_username'] = 'Por favor digite seu nome de usu&aacute;rio';
     $t['prompt_password'] = 'Por favor digite sua senha';
     $t['invalid_credentials'] = 'Nome de usu&aacute;rio ou senha inv&aacute;lidos';
@@ -140,16 +140,16 @@
     $t['no_such_user'] = 'Tal usu&aacute;rio n&atilde;o existe.';
     $t['reset_req_email_subject'] = 'Restabelecimento de senha requerido';
     $t['reset_req_email_msg_0'] = 'Um pedido foi recebido para restabelecer sua senha e nome de usu&aacute;rio para o seguinte site';
-    $t['reset_req_email_msg_1'] = 'Para confirmar que o restabelecimento foi realizado por voc&ecirc;, por favor visite o seguinte endere&ccedil;o, caso contr&aacute;rio apenas ignore esse email';
+    $t['reset_req_email_msg_1'] = 'Para confirmar que o restabelecimento foi realizado por voc&ecirc;, por favor acesse o seguinte endere&ccedil;o, caso contr&aacute;rio apenas ignore esse email';
     $t['email_failed'] = 'E-Mail n&atilde;o pode ser enviado.';
     $t['reset_req_email_confirm'] = 'Um email de confirma&ccedil;&atilde;o foi enviado para voc&ecirc;<br/>
-                                    Por favor cheque seu email.';
+                                    Por favor verifique seu email.';
     $t['invalid_key'] = 'Tecla Inv&aacute;lida';
-    $t['reset_email_subject'] = 'Sua Nova Senha';
-    $t['reset_email_msg_0'] = 'Sua senha foi restabelecida para o seguinte local e nome de usu&aacute;rio';
-    $t['reset_email_msg_1'] = 'Uma vez que logar, a senha poder&aacute; ser trocada.';
+    $t['reset_email_subject'] = 'Sua nova senha';
+    $t['reset_email_msg_0'] = 'Sua senha foi restabelecida para o seguinte site e nome de usu&aacute;rio';
+    $t['reset_email_msg_1'] = 'Ap&oacute;s efetuar login, a senha poder&aacute; ser trocada.';
     $t['reset_email_confirm'] = 'Sua senha foi restabelecida<br/>
-                                Por favor cheque seu email para uma nova senha.';
+                                Por favor verifique seu email para visualizar sua nova senha.';
 
     // Maintenance Mode
     $t['back_soon'] = '<h2>Modo de Manuten&ccedil;&atilde;o</h2>
