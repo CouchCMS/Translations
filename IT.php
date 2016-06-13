@@ -30,27 +30,27 @@
     $t['manage_users'] = 'Gestisci utenti';
 
     // List pages
-    $t['view_all_folders'] = 'Visualizza tutte le cartelle';
+    $t['view_all_folders'] = 'Vedi tutte le cartelle';
     $t['filter'] = 'Filtra';
     $t['showing'] = 'Mostra';
     $t['title'] = 'Titolo';
     $t['folder'] = 'Cartella';
     $t['date'] = 'Data';
     $t['actions'] = 'Azione';
-    $t['no_pages_found'] = 'Nessuna pagina trovata';
+    $t['no_pages_found'] = 'Nessuna pagina';
     $t['published'] = 'Pubblicato';
     $t['unpublished'] = 'Non pubblicato';
     $t['confirm_delete_page'] = 'Sei sicuro di voler cancellare la pagina'; // No question mark please
     $t['confirm_delete_selected_pages'] = 'Sei sicuro di voler cancellare le pagine selezionate?';
-    $t['remove_template'] = 'Rimuovi Template';
-    $t['template_missing'] = 'Template mancante';
+    $t['remove_template'] = 'Rimuovi modello';
+    $t['template_missing'] = 'Modello mancante';
     $t['prev'] = 'Prec'; // Pagination button
     $t['next'] = 'Succ'; // Pagination button
 
     // Pages
     $t['welcome'] = 'Benvenuto';
     $t['no_regions_defined'] = 'Nessuna regione modificabile definita';
-    $t['no_templates_defined'] = 'Nessun template gestito dal CMS';
+    $t['no_templates_defined'] = 'Nessun modello gestito dal CMS';
     $t['access_level'] = 'Livello di accesso';
     $t['superadmin'] = 'Super Admin';
     $t['admin'] = 'Amministratore';
@@ -63,8 +63,8 @@
     $t['title_desc'] = 'lascia questo campo vuoto per utilizzare il nome generato automaticamente dal titolo';
     $t['required'] = 'obbligatorio'; // Required field
     $t['required_msg'] = 'Il campo obbligatorio non può essere lasciato vuoto';
-    $t['browse_server'] = 'Sfoglia le immagini';
-    $t['view_image'] = 'Visualizza immagini';
+    $t['browse_server'] = 'Sfoglia';
+    $t['view_image'] = 'Vedi immagine';
     $t['thumb_created_auto'] = 'Sarà creata automaticamente';
     $t['recreate'] = 'Ricrea';
     $t['thumb_recreated'] = 'Miniatura ricreata';
@@ -198,7 +198,7 @@
     $t['template'] = 'Template';
     $t['modified'] = 'Modificata'; // Date of last modification
     $t['preview'] = 'Anteprima';
-    $t['confirm_delete_draft'] = 'Sei sicuro di voler cancellare questa bozza?';
+    $t['confirm_delete_draft'] = 'Sei sicuro di voler cancellare questa bozza';  // No question mark please
     $t['confirm_delete_selected_drafts'] = 'Sei sicuro di voler cancellare le bozze selezionate?';
     $t['confirm_apply_selected_drafts'] = 'Sei sicuro di voler applicare le bozze selezionate?';
     $t['view_all_drafts'] = 'Visualizza tutte le bozze';
@@ -244,3 +244,11 @@
     $t['columns_missing'] = 'Mancano alcune colonne!';
     $t['confirm_delete_columns'] = 'Sei sicuro di voler cancellare le colonne mancanti?';
     $t['add_row'] = 'Aggiungi una riga';
+
+    // 2.0
+    $t['left'] = 'Muovi a sinistra';
+    $t['right'] = 'Muovi a destra';
+    $t['crop'] = 'Ritaglia';
+
+    $t['menu_templates'] = 'Modelli';
+    $t['menu_modules'] = 'Amministrazione';
