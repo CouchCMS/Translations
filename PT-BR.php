@@ -244,3 +244,14 @@
     $t['columns_missing'] = 'Algumas colunas est&atilde;o desaparecidas!';
     $t['confirm_delete_columns'] = 'Voc&ecirc; tem certeza de que quer deletar as colunas desaparecidas permanentemente?';
     $t['add_row'] = 'Adicionar uma linha';
+    
+    // 2.0
+    $t['left'] = 'Mover para Esquerda';
+    $t['right'] = 'Mover para Direita';
+    $t['crop'] = 'Cortar';
+    $t['menu_templates'] = 'Modelos';
+    $t['menu_modules'] = 'Administração';
+    $t['cancel'] = 'Cancelar';
+    $t['selected'] = 'Selecionar';
+    $t['add'] = 'Add';
+    $t['remove'] = 'Remover';
