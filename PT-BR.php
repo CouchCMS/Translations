@@ -11,7 +11,7 @@
     $t['view_site'] = 'Visualizar Site';
     $t['logout'] = 'Sair';
     $t['javascript_msg'] = 'O JavaScript est&aacute; desabilitado ou n&atilde;o est&aacute; sendo suportado pelo seu navegador.<br/>
-                            Por favor aprimore seu navegador ou <a title="Habilite o JavaScript no seu navegador" href="http://www.google.com/support/bin/answer.py?answer=23852"><b>enable JavaScript</b></a> para usar o Painel Administrador.';
+                            Por favor atualize seu navegador ou <a title="Habilite o JavaScript no seu navegador" href="http://www.google.com/support/bin/answer.py?answer=23852"><b>enable JavaScript</b></a> para usar o Painel Administrador.';
     $t['add_new'] = 'Adicionar Novo';
     $t['add_new_page'] = 'Adicionar nova p&aacute;gina';
     $t['add_new_user'] = 'Adicionar novo usu&aacute;rio';
@@ -96,8 +96,8 @@
     $t['confirm_delete_selected_comments'] = 'Voc&ecirc; tem certeza de que quer deletar os coment&aacute;rios selecionados?';
     $t['bulk_action'] = 'Empilhar A&ccedil;&atilde;o com os selecionados';
     $t['apply'] = 'Aplicar';
-    $t['submitted_on'] = 'Submetido em';
-    $t['email'] = 'E-Mail';
+    $t['submitted_on'] = 'Enviado em';
+    $t['email'] = 'E-mail';
     $t['website'] = 'Site';
     $t['duplicate_content'] = 'Duplicar conte&uacute;do';
     $t['insufficient_interval'] = 'Sem espa&ccedil;o suficiente entre os coment&aacute;rios';
@@ -115,16 +115,16 @@
     $t['repeat_password'] = 'Repita a Senha';
     $t['repeat_password_msg'] = 'Digite sua nova senha novamente.';
     $t['user_name_exists'] = 'Nome de usu&aacute;rio j&aacute; existente';
-    $t['email_exists'] = 'E-Mail j&aacute; existente';
+    $t['email_exists'] = 'E-mail j&aacute; existente';
 
     // Login
     $t['user_name'] = 'Nome de usu&aacute;rio';
     $t['password'] = 'Senha';
     $t['login'] = 'Login';
     $t['forgot_password'] = 'Esqueceu sua senha?';
-    $t['prompt_cookies'] = 'Os cookies devem estar desabilitados a usar este CMS';
-    $t['prompt_username'] = 'Por favor digite seu nome de usu&aacute;rio';
-    $t['prompt_password'] = 'Por favor digite sua senha';
+    $t['prompt_cookies'] = 'Os cookies devem estar desabilitados para usar este CMS';
+    $t['prompt_username'] = 'Por favor, digite seu nome de usu&aacute;rio';
+    $t['prompt_password'] = 'Por favor, digite sua senha';
     $t['invalid_credentials'] = 'Nome de usu&aacute;rio ou senha inv&aacute;lidos';
     $t['account_disabled'] = 'Conta Inv&aacute;lida';
     $t['access_denied'] = 'Acesso Negado';
@@ -137,7 +137,7 @@
     $t['name_or_email'] = 'Seu Nome de Usu&aacute;rio ou E-mail';
     $t['submit'] = 'Entrar';
     $t['submit_error'] = 'Por favor insira seu nome de usu&aacute;rio ou endere&ccedil;o de email';
-    $t['no_such_user'] = 'Tal usu&aacute;rio n&atilde;o existe.';
+    $t['no_such_user'] = 'O usu&aacute;rio n&atilde;o existe.';
     $t['reset_req_email_subject'] = 'Restabelecimento de senha requerido';
     $t['reset_req_email_msg_0'] = 'Um pedido foi recebido para restabelecer sua senha e nome de usu&aacute;rio para o seguinte site';
     $t['reset_req_email_msg_1'] = 'Para confirmar que o restabelecimento foi realizado por voc&ecirc;, por favor acesse o seguinte endere&ccedil;o, caso contr&aacute;rio apenas ignore esse email';
@@ -149,7 +149,7 @@
     $t['reset_email_msg_0'] = 'Sua senha foi restabelecida para o seguinte site e nome de usu&aacute;rio';
     $t['reset_email_msg_1'] = 'Ap&oacute;s efetuar login, a senha poder&aacute; ser trocada.';
     $t['reset_email_confirm'] = 'Sua senha foi restabelecida<br/>
-                                Por favor verifique seu email para visualizar sua nova senha.';
+                                Por favor, verifique seu email para visualizar sua nova senha.';
 
     // Maintenance Mode
     $t['back_soon'] = '<h2>Modo de Manuten&ccedil;&atilde;o</h2>
@@ -173,7 +173,7 @@
     $t['add_new_folder'] = 'Adicionar uma nova pasta';
     $t['parent_folder'] = 'Pasta Principal';
     $t['weight'] = 'Import&acirc;ncia';
-    $t['weight_desc'] = 'Quanto maior o valor, menos a pasta aparecer&aacute; na lista. Pode ser colocado negativo';
+    $t['weight_desc'] = 'Quanto maior o valor, menos a pasta aparecer&aacute; na lista. Pode ser colocado valor negativo';
     $t['desc'] = 'Descri&ccedil;&atilde;o';
     $t['image'] = 'Imagem';
     $t['cannot_be_own_parent'] = 'N&atilde;o pode ser seu pr&oacute;prio principal';
